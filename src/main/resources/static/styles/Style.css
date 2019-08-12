@@ -10,3 +10,15 @@ body {
 .node {
   animation: pulse 2s ease infinite;
 }
+
+@keyframes move {
+	100% { 
+    	motion-offset: 100%;
+    	offset-distance: 100%;
+  	}
+}
+
+.marker {
+  	offset-path: path('M 100 450 L 300 300');
+  	animation: move 2s linear infinite;
+}

@@ -35,6 +35,8 @@ class TorchApp extends React.Component {
 		return (
 			<div style={style}>
 				<svg viewBox={`0 0 1200 900`}>
+					<circle className="marker" r="8" fill="#808080"/>
+			
 					<line x1="100" y1="450" x2="300" y2="300" stroke="#808080" fill="none" strokeWidth="2"/>
 					<line x1="100" y1="450" x2="300" y2="600" stroke="#808080" fill="none" strokeWidth="2"/>
 						
