@@ -64,7 +64,7 @@ class TorchApp extends React.Component {
 					<line x1="900" y1="600" x2="1100" y2="600" stroke="#808080" fill="none" strokeWidth="2"/>
 					<line x1="900" y1="600" x2="1100" y2="650" stroke="#808080" fill="none" strokeWidth="2"/>
 					
-					<circle className="node" cx="100" cy="450" r="20" stroke="#808080" fill="#2ecc71" strokeWidth="2"/>
+					<circle cx="100" cy="450" r="20" stroke="#808080" fill="#2ecc71" strokeWidth="2" style={{animation: "pulse 2s ease infinite"}}/>
 					
 					<circle className="node" cx="300" cy="300" r="20" stroke="#808080" fill="#2ecc71" strokeWidth="2"/>
 					<circle className="node" cx="300" cy="600" r="20" stroke="#808080" fill="#e74c3c" strokeWidth="2"/>
