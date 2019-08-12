@@ -8,7 +8,7 @@ body {
 }
 
 .node {
-  animation: pulse 2s ease infinite;
+  animation: pulse 4s ease infinite;
 }
 
 @keyframes move {
@@ -20,5 +20,5 @@ body {
 
 .marker {
   	offset-path: path('M 100 450 L 300 300');
-  	animation: move 2s linear infinite;
+  	animation: move 4s linear infinite;
 }

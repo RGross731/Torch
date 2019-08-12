@@ -34,9 +34,11 @@ class TorchApp extends React.Component {
 		
 		return (
 			<div style={style}>
-				<svg viewBox={`0 0 1200 900`}>
-					<circle className="marker" r="8" fill="#808080"/>
-			
+				<div style={{position: "absolute", left: 100, top: 450}}>
+					{"Howdy"}
+				</div>
+					
+				<svg viewBox={`0 0 1200 900`}>			
 					<line x1="100" y1="450" x2="300" y2="300" stroke="#808080" fill="none" strokeWidth="2"/>
 					<line x1="100" y1="450" x2="300" y2="600" stroke="#808080" fill="none" strokeWidth="2"/>
 						
@@ -66,12 +68,14 @@ class TorchApp extends React.Component {
 					<line x1="900" y1="600" x2="1100" y2="600" stroke="#808080" fill="none" strokeWidth="2"/>
 					<line x1="900" y1="600" x2="1100" y2="650" stroke="#808080" fill="none" strokeWidth="2"/>
 					
+					<circle className="marker" r="6" stroke="#808080" fill="#ffffff" strokeWidth="2"/>
+					
 					<circle cx="100" cy="450" r="20" stroke="#808080" fill="#2ecc71" strokeWidth="2" style={{animation: "pulse 2s ease infinite"}}/>
 					
 					<circle className="node" cx="300" cy="300" r="20" stroke="#808080" fill="#2ecc71" strokeWidth="2"/>
 					<circle className="node" cx="300" cy="600" r="20" stroke="#808080" fill="#e74c3c" strokeWidth="2"/>
 					
-					<circle className="node" cx="500" cy="200" r="20" stroke="#808080" fill="#bcbcbc" strokeWidth="2"/>
+					<circle className="node" cx="500" cy="200" r="20" stroke="#808080" fill="#ffffff" strokeWidth="2"/>
 					<circle className="node" cx="500" cy="250" r="20" stroke="#808080" fill="#bcbcbc" strokeWidth="2"/>
 					<circle className="node" cx="500" cy="300" r="20" stroke="#808080" fill="#bcbcbc" strokeWidth="2"/>
 					<circle className="node" cx="500" cy="350" r="20" stroke="#808080" fill="#bcbcbc" strokeWidth="2"/>
