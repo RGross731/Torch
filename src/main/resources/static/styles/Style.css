@@ -1,3 +1,12 @@
 body {
 	background-color: #bfbab0;
 }
+
+@keyframes pulse {
+  from, to { stroke-width: 2; }
+  50% { stroke-width: 4; }
+}
+
+.node {
+  animation: pulse 2s ease infinite;
+}
